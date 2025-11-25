@@ -1,0 +1,48 @@
+{
+ "Books": [
+  {
+   "id": 1,
+   "title": "Война и мир",
+   "author_id": 1,
+   "year": 1869,
+   "is_available": false
+  },
+  {
+   "id": 2,
+   "title": "Анна Каренина",
+   "author_id": 1,
+   "year": 1877,
+   "is_available": true
+  },
+  {
+   "id": 3,
+   "title": "Преступление и наказание",
+   "author_id": 2,
+   "year": 1866,
+   "is_available": true
+  },
+  {
+   "id": 4,
+   "title": "Братья Карамазовы",
+   "author_id": 2,
+   "year": 1880,
+   "is_available": true
+  }
+ ],
+ "Authors": [
+  {
+   "name": "Лев Толстой",
+   "email": "tolstoy@mail.ru",
+   "Biography": "Русский писатель",
+   "AuthorID": 1
+  },
+  {
+   "name": "Фёдор Достоевский",
+   "email": "dostoevsky@mail.ru",
+   "Biography": "Русский писатель",
+   "AuthorID": 2
+  }
+ ],
+ "NextIDBook": 5,
+ "NextIDAuthor": 3
+}
